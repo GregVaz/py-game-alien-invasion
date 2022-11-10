@@ -5,3 +5,7 @@
 ### Refactoring: The _check_events()_ and _update_screen() methods
 
 In large projects, you will often refactor code you've written before adding more code. Refactoring simplifies the structure of the code you've already written, making it easier to build on.
+
+### Responding to a keypress
+
+Whenever the player presses a key, **that keypress is registered in Pygame as an event**. Each event is picked up by the pygame.event.get() method. Each keypress is registered asa KEYDOWN event.
